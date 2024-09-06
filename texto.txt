@@ -1,0 +1,60 @@
+Para comenzar a darle estilo a nuestro HTML es Buena practica comenzar siempre por la etiqueta <body>: con los siguientes atributos de acuerdo a la preferencia del desarrollador:
+
+font-family: sans-serif; --> Es una categoria de fuentes tipograficas y se caracteriza por no tener adornos finales de los trazo de las letras, aunque es buena practica agregar aunque sea dos tipografica.  
+
+margin: 0--> De acuerdo a lo que se pudo observar en la clase esta etiqueta hace referencia al margen de la parte exterior de la pagina en pixeles en este caso se agrega 0 para que el desarrollador pueda darle estilo a su gusto
+
+padding: 0 --> Similar a margin, pero en este caso, se refiere al espacio interior del <body>, entre el borde del elemento y el contenido.
+
+color --> Esta propiedad establece el color del texto dentro del <body>. 
+
+background-color --> Define el color de fondo del <body>. 
+
+Header -->Parte de un documento que contiene información inportante que aparece al principio de la pagina web.
+
+Nav --> Es una etiqueta semantica que es utilizada para definir un bloque de navegación en una pagina web (Es importante agregar esta etiqueta para que nuestro codigo sea semantico, organizado y Accesible)
+
+Para darle estilo utilice la propiedades:
+
+List-Style --> Esta etiqueta elimina los estilos predeterminado que se aplican en la lista ordenada (<UL>) o desordenadas (<OL>).
+
+Display --> Permite alinear y distribuir los elementos hijos (<li>) de manera mas facil y flexible.
+
+Justify-content --> Etiqueta que alinea los elementos dentro de la etiqueta (<UL>) AL CENTRO DEL CONTENEDOR.
+
+Para darle estilo a la etiqueta (<li>) simplemente agregue un margin de 0 pixeles en la parte superior e inferior y a la derecha e izquierda un espacio de 15 px para que se pueda ajustar y centrar
+
+al mismo modo agregue una etiqueta que me parecio interesante donde aplique las siguientes propiedades:
+
+nav ul li:hover {} --> esta etiqueta simplemente estila a los elementos li que estan dentro de la lista Ordenada (<UL>) EN UN ELEMENTO (<NAV>) para cuando el usuario pase el cursos sobre ellos se le agrega hover para que el cursos se pueda activar
+
+pointer --> cambia el tipo de curso que se muestra cuando el usuario pasa el cursor a los elementos (<li>)
+
+text-decoration-->aplica un subrayado al texto del elemento (<li>)
+
+main --> Representa el contenido principal del documento.
+
+margin:auto --> centra horizontalmente el elemento <main> dentro de su contenedor y se combina con un max-widht para definir los espacios automatico en los margenes izquierdo y derecho, para que pueda centrar el elemento dentro del contenedor.
+
+Section --> Agrupa contenido dentro de un documento.
+
+Estilo de botones
+
+border: none --> Elimina los bordes visible que parecene predeterminado
+
+border-radius--> Etiqueta muy interesante que lo que hace es redondear y darle efecto a la esquina del boton.
+
+font-size --> Define el tamaño del texto dentro del boton
+
+transition --> Al darle dos parametros en este caso background-color cuando definamos el color por separado de los botones podemos observar un efecto de color que durara 0.3 segundo.
+
+Margin-top --> Basicamente lo agregue para darle un espacio entre el boton y el elemento que se encuentra encima de el.
+
+footer--> define la secciones de pie de pagina de un documento o sección de una pagina web
+
+position--> en este caso se utilizo fixed ya que fija la posición footer en la ventana del navegador
+
+bottom--> etiqueta interesante ya que indica que el footer debe estar alineado con el borde inferior de la ventana del navegador
+
+width--> en este caso es buena practica utilizar el 100% para que abarque el ancho de lña ventana del navegador (ASEGURA QUE EL FOOTER SE EXTIENDA A LO ANCHO DE LA PAGINA)
+}
