@@ -1,0 +1,14 @@
+h1{
+    color: blue;
+}
+
+.destacado{
+    color: red;
+    font-size: 18px;
+}
+
+#informacion{
+    color:green;
+    text-decoration: underline;
+
+}
